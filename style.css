@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+}
+.nav-sizing{
+    font-size: 2em;
+}
+.flag-sizing{
+    width: 4em;
+    height: 4em;
+}
+/*.{*/
+/*    background-image: url("backas.jpeg");*/
+/*    background-position: center;*/
+/*    background-attachment: fixed;*/
+/*    background-size: cover;*/
+/*    opacity: 80%;*/
+/*}*/
+.backgroundas {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
+/*.border-sizing{*/
+/*    width: 25%;*/
+/*}*/
+
+.backgroundas .foto {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("backas.jpeg") center center;
+    background-size: cover;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
